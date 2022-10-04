@@ -1,26 +1,47 @@
 body{
     border: 3px solid black;
 }
+header{
+    text-align: center;
+    border: 3px solid darkgreen;
+}
 #Container{
-    border: 3px solid blue;
+    margin: auto;
+    max-width: 1000px;
+    display: flex; 
+    border: #4264a2 2px solid;
+    padding:20px;
 }
 #main{
     border: 3px solid red;
 }
 article{
     border: 3px solid darkblue;
+    flex: 90%;
+    padding: 10px;
 }
 #icones{
-    border: 3px solid cyan;
+    border: 1px solid cyan;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+    
+    
 }
 .icon{
     border: 3px solid violet;
+    text-align: center;
+    max-width: 25%;
+    min-width: 200px;
+    flex: 30%;
 }
 .icon-img{
     border: 1px solid green;
 }
 h1{
     border: 1px solid green;
+    text-align: center;
 }
 h2{
     border: 1px solid green;
@@ -36,10 +57,19 @@ a{
 }
 #Aside{
     border: 3px solid greenyellow;
+    flex: 8%;
 }
 .Menu{
-    border: 1px solid black;
+    text-align: center;
+    border: 2px solid grey;
+    padding: 10%;
+    margin: 30px;
+    min-width: 60px
 }
 footer{
     border: 1px solid green;
+    text-align: right;
+}
+#image{
+    width: 100%;
 }
