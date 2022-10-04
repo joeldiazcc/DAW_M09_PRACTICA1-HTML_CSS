@@ -1,0 +1,45 @@
+body{
+    border: 3px solid black;
+}
+#Container{
+    border: 3px solid blue;
+}
+#main{
+    border: 3px solid red;
+}
+article{
+    border: 3px solid darkblue;
+}
+#icones{
+    border: 3px solid cyan;
+}
+.icon{
+    border: 3px solid violet;
+}
+.icon-img{
+    border: 1px solid green;
+}
+h1{
+    border: 1px solid green;
+}
+h2{
+    border: 1px solid green;
+}
+h3{
+    border: 1px solid green;
+}
+p{
+    border: 1px solid green;
+}
+a{
+    border: 1px solid green;
+}
+#Aside{
+    border: 3px solid greenyellow;
+}
+.Menu{
+    border: 1px solid black;
+}
+footer{
+    border: 1px solid green;
+}
