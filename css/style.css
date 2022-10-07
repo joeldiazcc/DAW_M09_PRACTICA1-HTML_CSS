@@ -1,7 +1,9 @@
+/* En el body cambiem la font de lletra i fem el border negre */
 body{
     border: 3px solid black;
     font-family: 'Nunito', sans-serif;
 }
+/* El header es la capçalera on presentem la Práctica i centrem el text */
 header{
     text-align: center;
     border: 3px solid darkgreen;
@@ -11,7 +13,7 @@ header{
     margin: auto;
     max-width: 1000px;
     display: flex; 
-    padding:20px;
+    padding: 20px;
 }
 #main{
     border: 3px solid red;
@@ -34,10 +36,11 @@ article{
     border: 3px solid violet;
     text-align: center;
     max-width: 25%;
-    min-width: 200px;
     flex: 30%;
+    margin: 0.8%;
+    padding: 2%;
 }
-.icon-img{
+.icon-img > img{
     border: 1px solid green;
 }
 h1{
@@ -64,14 +67,22 @@ a{
 .Menu{
     text-align: center;
     border: 2px solid grey;
-    padding: 10%;
+    padding-right: 20%;
     margin: 30px;
-    min-width: 60px
+    min-width: 70px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 footer{
-    border: 1px solid green;
+    background-color: lightgrey;
+    border: 1px solid darkcyan;
     text-align: right;
+    margin: 2%;
 }
-#image{
+#image > img{    
+    border: 1px solid darkcyan;
     width: 100%;
+    height: 100%;
 }
