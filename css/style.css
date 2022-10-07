@@ -1,17 +1,22 @@
+/* En el body cambiem la font de lletra i fem el border negre */
 body{
     border: 3px solid black;
     font-family: 'Nunito', sans-serif;
 }
+/* El header es la capçalera on presentem la Práctica i centrem el text */
 header{
     text-align: center;
     border: 3px solid darkgreen;
 }
+/* Aquet es el div que conté la resta (menys els menus) 
+Limito l'amplada maxima i el faig flex, afageixo un padding i un margin auto
+per que sigui similar al exemple*/
 #Container{
     border: 2px solid darkcyan;
     margin: auto;
     max-width: 1000px;
     display: flex; 
-    padding:20px;
+    padding: 20px;
 }
 #main{
     border: 3px solid red;
@@ -21,23 +26,26 @@ article{
     flex: 90%;
     padding: 10px;
 }
+/* Possat el border i centrat els articles amb icones. */
 #icones{
     border: 1px solid cyan;
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center
-    
-    
 }
+
+/* Aquesta es la meva solució per separar els articles */
 .icon{
     border: 3px solid violet;
     text-align: center;
     max-width: 25%;
-    min-width: 200px;
     flex: 30%;
+    margin: 0.8%;
+    padding: 2%;
 }
-.icon-img{
+/* Per fer el border al voltant de les icones */
+.icon-img > img{
     border: 1px solid green;
 }
 h1{
@@ -61,17 +69,28 @@ a{
     border: 3px solid greenyellow;
     flex: 8%;
 }
+/* Primer possem el text a l´equerra com en el exemple
+Faig un min width perque sempre sigui minim de una amplada semblant al exemple
+I el bold perque les lletres a la imatge em sembla que tenen bold també */
 .Menu{
-    text-align: center;
     border: 2px solid grey;
-    padding: 10%;
+    padding-right: 20%;
     margin: 30px;
-    min-width: 60px
+    min-width: 70px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+
 }
 footer{
-    border: 1px solid green;
+    background-color: lightgrey;
+    border: 1px solid darkcyan;
     text-align: right;
+    margin: 2%;
 }
-#image{
+/* Per poder extendre la imatge a tot l' espai del DIV */
+#image > img{    
+    border: 1px solid darkcyan;
     width: 100%;
+    height: 100%;
 }
