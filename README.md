@@ -35,7 +35,7 @@ OperaGX:
 
 
 Google Chrome:
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/64970845/194594338-f66b3937-13b3-4e53-b4bb-0a89a0d943bc.png)
 
 
 ## Repository Authors✒️
